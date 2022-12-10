@@ -1,0 +1,78 @@
+/* Navbar */
+
+#top_nav {
+    background-color: lightseagreen;
+    padding: 1% 3%;
+    margin: 0% 0%;
+}
+
+#nav_style {
+    font-size: 20px;
+    padding-left: 30px;
+    color: rgb(255, 255, 255);
+}
+
+#searchbox {
+    border: 0px;
+    border-radius: 0px;
+    position: relative;
+    /* left: 50px; */
+    color: black;
+    box-shadow: 5px 10px 10px 0px gray;
+    width: 100%;
+    margin-bottom: 5%;
+}
+#searchbox::placeholder{
+    color: black;
+}
+#searchbtn {
+    position: relative;
+    right: 50px;
+    z-index: 99;
+    margin-bottom: 5%;
+    color: white;
+    border-radius: 0px;
+    background-color: rgb(27, 63, 97);
+}
+/* banner */
+
+#banner{
+    /* margin-top: 50px; */
+    background-color: white;
+}
+#bannertext{
+    margin: 50px 0px;
+
+}
+#bannertext h1{
+    font-size: 250%;
+    padding: 30px 0px;
+
+}
+#bannertext p{
+    font-size: 21px;
+    /* padding: 30px 0px; */
+    text-align: justify;
+}
+#bannerimg img{
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+#bannerbtn1{
+    border: 3px solid lightseagreen;
+    background-color: lightseagreen;
+    color: white;
+    font-size: 120%;
+    margin-right: 5%;
+    margin-top: 5px;
+    /* width: 20%; */
+    padding: 5px 30px;
+}
+#bannerbtn2{
+    border: 2px solid lightseagreen;
+    /* background-color: lightseagreen; */
+    /* color: white; */
+    font-size: 120%;
+    /* width: 20%; */
+    margin-top: 5px;
+}
